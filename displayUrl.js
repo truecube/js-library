@@ -1,1 +1,1 @@
-document.getElementsByTagName('body').innerHTML += "<br/><br/><div id='debugUrl' style='font-size: 7px;'>"+window.location.href+"</div>";
+document.getElementsByTagName('body')[0].innerHTML += "<br/><br/><div id='debugUrl' style='font-size: 7px;'>"+window.location.href+"</div>";
